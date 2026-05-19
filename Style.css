@@ -1,0 +1,523 @@
+/* Fondo 1 */
+body.fondo1 {
+  margin: 0;
+  background-color: #97bd36;
+  background-image: url(https://i.flipline.com/images/2014/flipline_bg_small.gif);
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+body.fondo1 #bgTopDiv {
+  background-image: url(https://i.flipline.com/images/2014/flipline_bg_big.gif);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+/* Fondo 2 */
+body.fondo2 {
+  margin: 0;
+  background-color: #df5501;
+  background-image: url(https://i.flipline.com/images/2014/papalouie_bg_small.gif);
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+body.fondo2 #bgTopDiv {
+  background-image: url(https://i.flipline.com/images/2014/papalouie_bg_big.gif);
+  background-position: left top;
+  background-repeat: repeat-x;
+}
+
+/* asd*/
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bk_bg a,
+.g_bg a,
+.bottom_links a,
+.gamesmore a {
+  font-weight: bold;
+}
+
+.bk_bg a:link,
+.bk_bg a:visited,
+.bk_bg a:active,
+.g_bg a:link,
+.g_bg a:visited,
+.g_bg a:active,
+.bottom_links a:link,
+.bottom_links a:visited,
+.bottom_links a:active {
+  color: #2e2e2e;
+}
+
+.bk_bg a:hover,
+.g_bg a:hover,
+.bottom_links a:hover {
+  text-decoration: underline;
+}
+
+.gamesmore a:hover {
+  color: #fff;
+}
+
+.lists {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #d36aff;
+  list-style: disc inside;
+}
+
+.flipdeck_text,
+.game_text_2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  color: #000;
+}
+
+.game_text_2 a:link,
+.game_text_2 a:visited,
+.game_text_2 a:hover,
+.game_text_2 a:active {
+  color: #ededed;
+}
+
+.game_title,
+.game_title a:link,
+.game_title a:visited,
+.game_title a:hover,
+.game_title a:active {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  color: #d36aff;
+}
+
+.game_title a:hover {
+  text-decoration: underline;
+}
+
+.gamesection {
+  background-image: url(https://i.flipline.com/images/games_section.gif);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.gamesectionnew {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #af2ecf;
+  line-height: 19px;
+  background-image: url(https://i.flipline.com/images/2013_fliplinegames.gif);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.gamenavbg {
+  background-image: url(https://i.flipline.com/images/games_play_header2.gif);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.gamenavtext,
+.gamenavtext a:link,
+.gamenavtext a:visited,
+.gamenavtext a:active {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #af2ecf;
+  line-height: 12px;
+}
+
+.gamenavtext a:hover {
+  text-decoration: underline;
+}
+
+.box_white {
+  background-color: #ffffff;
+}
+
+.box_white_tl {
+  background-image: url(https://i.flipline.com/images/corner_white.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.box_white_tr {
+  background-image: url(https://i.flipline.com/images/corner_white.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.box_white_bl {
+  background-image: url(https://i.flipline.com/images/corner_white.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.box_white_br {
+  background-image: url(https://i.flipline.com/images/corner_white.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.flipdeck_link a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #569300;
+  line-height: 16px;
+}
+
+.fridaybox,
+.fridaybox a:link,
+.fridaybox a:visited,
+.fridaybox a:active {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  line-height: 12px;
+}
+
+.fridaybox:hover,
+.fridaybox a:hover {
+  color: #870ba6;
+  text-decoration: underline;
+  background-position: 0px -155px;
+}
+
+.cookbook_leftbar,
+.cookbook_rightbar {
+  background-repeat: repeat-y;
+}
+
+.cookbook_leftbar {
+  background-image: url(https://i.flipline.com/images/cookbook/left_bar.gif);
+}
+
+.cookbook_rightbar {
+  background-image: url(https://i.flipline.com/images/cookbook/right_bar.gif);
+}
+
+.cookbook_stepbar {
+  background-image: url(https://i.flipline.com/images/cookbook/step_bar_right.gif);
+  background-repeat: no-repeat;
+}
+
+.cookbook_stepnumber {
+  font-family: Arial, Gotham, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  top: 6px;
+}
+
+.gamesback {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #a72cc5;
+  background-image: url(https://i.flipline.com/images/games_back.gif);
+  background-repeat: no-repeat;
+}
+
+.gamesback a:link,
+.gamesback a:visited,
+.gamesback a:active {
+  color: #fff;
+}
+
+.gamesback a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.gamename,
+.gamename a:link,
+.gamename a:visited,
+.gamename a:active {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #af2ecf;
+  line-height: 18px;
+}
+
+.gamename a:active {
+  text-decoration: underline;
+}
+
+.gamethumbs1 {
+  background-color: #ffffff;
+}
+
+.gamethumbs1 img:hover {
+  position: relative;
+  top: -3px;
+  opacity: 0.85;
+}
+
+.gamesplit {
+  background-image: url(https://i.flipline.com/images/newflip_split.gif);
+  background-repeat: repeat-y;
+  background-position: left top;
+}
+
+.flipdeck_back {
+  background-image: url(https://i.flipline.com/images/flipdeck_back.jpg);
+  background-repeat: no-repeat;
+}
+
+.g_bg {
+  background-color: #e4e4e4;
+  font-size: 12px;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.bk_bg {
+  background-color: #000000;
+  font-size: 10px;
+  color: #999999;
+  font-weight: bold;
+}
+
+.bottom_links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #000000;
+}
+
+.loading {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em 2em;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.show-loading {
+  display: block;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 221px;
+}
+
+.image-container img {
+  width: calc(50% - 5px);
+  height: calc(50% - 5px);
+  margin: 2.5px;
+  transition: opacity 0.5s ease-in-out;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-container img {
+  opacity: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aboutus img {
+  margin-left: 20px;
+}
+
+.footer-spacer {
+  height: 10px;
+  visibility: hidden;
+}
+
+h2 {
+  color: negro;
+  transition: color 0.5s ease;
+}
+
+h2:hover {
+  color: rgb(97, 180, 225);
+}
+
+.games-gallery {
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.img-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 130px;
+}
+
+.game-card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.game-card:hover {
+  transform: rotate(8deg) scale(1.08);
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.game-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.game-img.leaving {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.game-img.entering {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.game-img.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dot-row {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(68, 64, 64, 0.25);
+  transition: background 0.3s;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.dot.active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#navgithub,
+#navhome,
+#navhistoria, 
+#navjuegos {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 104px;
+    height: 41px;
+    text-indent: 13px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#navhome {
+    background: url("Imagenes/nav_home.png") no-repeat 0 0;
+}
+
+#navhistoria {
+    background: url("Imagenes/nav_historia.gif") no-repeat 0 0;
+}
+
+#navjuegos {
+  background: url("Imagenes/nav_juegos.gif") no-repeat 0 0;
+}
+
+#navgithub {
+    background: url("Imagenes/nav_github.gif") no-repeat 0 0;
+}
+
+#navgithub:hover,
+#navhome:hover,
+#navhistoria:hover,
+#navjuegos:hover {
+    background-position: 0 -3px;
+    line-height: 33px;
+}
+
+
+.logo {
+    background-image: url("Imagenes/flipline_logo.gif");
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 200px;
+    height: 100px;
+}

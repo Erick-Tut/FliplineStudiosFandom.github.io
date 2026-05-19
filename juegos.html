@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Juegos - Papas Louie Fandom</title>
+  <link href="Style.css" rel="stylesheet">
+  <style>
+    @font-face {
+      font-family: 'Archivo Black';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Archivo Black Regular'),
+        local('ArchivoBlack-Regular'),
+        url(https://fonts.gstatic.com/s/archivoblack/v4/WoAoVT7K3k7hHfxKbvB6B0BTuPGxyeV-VBVV8KqqzrI.woff) format('woff');
+    }
+  </style>
+  <style type="text/css" id="operaUserStyle"></style>
+</head>
+<body class="fondo2">
+  <div id="bgTopDiv" align="center">
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td height="151" align="center" valign="top">
+            <table width="1018" height="170" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td height="10"></td>
+                </tr>
+                <tr>
+                  <td height="90" align="left" valign="top">
+                    <table width="1018" height="90" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td width="80" align="left" valign="top">
+                            <img src="https://i.flipline.com/images/2014/onion.gif" width="80" height="90">
+                          </td>
+                          <td width="360" align="left" valign="top" class="logo">
+                            <a href="index.html">
+                              <img src="https://i.flipline.com/images/logo_blank.gif" width="360" height="90">
+                            </a>
+                          </td>
+                          <td width="728" align="right" valign="top">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="57" align="left" valign="bottom">
+                    <table width="250" height="41" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td width="50">
+                            <a id="navhome" href="index.html"><span></span></a>
+                          </td>
+                          <td width="104">
+                            <a id="navhistoria" href="Historia.html"><span></span></a>
+                          </td>
+                          <td width="5"></td>
+                          <td width="104">
+                            <a id="navjuegos" href="juegos.html"><span></span></a>
+                          </td>
+                          <td width="5"></td>
+                          <td width="104">
+                            <a id="navgithub" href="https://github.com/Erick-Tut"><span></span></a>
+                          </td>
+                          <td width="5"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                <script>
+                  document.addEventListener("DOMContentLoaded", function () {
+                    const loadingDiv = document.getElementById('loading');
+                    const links = document.querySelectorAll('a[href]');
+                    links.forEach(link => {
+                      link.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        loadingDiv.classList.add('show-loading');
+                        setTimeout(() => {
+                          window.location.href = this.href;
+                        }, 1000);
+                      });
+                    });
+                  });
+                </script>
+                <div id="loading" class="loading">
+                  <img src="Imagenes\OnionDance.gif" alt="Cargando..." />
+                </div>
+                <tr>
+                  <td height="270">
+                    <table width="1016" height="270" border="0" cellspacing="0" cellpadding="0">
+                      <tbody>
+                        <tr>
+                          <td width="10" height="10" class="box_white_tl"></td>
+                          <td width="666" height="10" class="box_white"></td>
+                          <td width="10" height="10" class="box_white_tr"></td>
+                          <td width="10" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="10" height="250" class="box_white"></td>
+                          <td width="666" height="250" align="left" valign="top" class="box_white">
+                            <table width="990" height="250" border="0" cellspacing="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td height="19"><img src="Imagenes\Juegos.png" width="666" height="19"></td>
+                                </tr>
+                                <tr>
+                                  <td height="10"></td>
+                                </tr>
+                                <tr>
+                                  <td height="260" align="left" valign="top">
+                                    <div class="section">
+                                        <h2>Juegos Principales</h2>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                          <tbody>
+                                            <tr>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Scooperia_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Scooperia</b><br>¡Tu viaje turístico a la gran ciudad se detiene cuando pierdes todo tu dinero y pertenencias! Atrapado en Oniontown sin dinero para regresar a casa, Papa Louie tiene una solución única a su problema: ¡Quédese y administre su nueva heladería!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Bakeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Bakeria</b><br>¡¡¡Estás contratado!!! ¿Pero puedes manejar la gestión de una gran panadería que sirva las tartas más buscadas de la ciudad? Centrada en Whiskview Mall, Papa's Bakeria recibe una buena cantidad de tráfico peatonal de algunos de los clientes más exigentes de la zona. ¡Tendrás la tarea de elegir la corteza correcta, rellenarla con una variedad de ingredientes silvestres y hornearla a la perfección!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Donuteria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Donuteria</b><br>Acabas de conseguir un trabajo en Papa's Donuteria en la caprichosa ciudad de Powder Point. Claro, el gran salario y los beneficios son buenos, pero aceptaste el trabajo por ese codiciado pase Line-Jump. Recorta las donas, fríelas y decóralas con una vertiginosa variedad de aderezos.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Cupcakeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Cupcakeria</b><br>¡Cocina una cantidad ridícula de deliciosos cupcakes para todos tus locos clientes en Papa's Cupcakeria!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Wingeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Wingeria</b><br>¡Bienvenido a Papa's Wingeria, el último restaurante en los juegos de cocina de Papa's! Tome pedidos, haga funcionar las freidoras, sazone las alitas y colóquelas en una fuente con guarniciones.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Freezeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Freezeria</b><br>Acabas de conseguir un increíble trabajo de verano en la isla tropical de Calypso. Papa's Freezeria es una heladería frente al mar. Barcos llenos de clientes llegan a la isla en busca de las mejores delicias congeladoras que existen.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Burgeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Burgeria</b><br>Papa's Burgeria prepara cualquier hamburguesa deliciosa o hamburguesa con queso a pedido. En esta frenética secuela de Papa's Pizzeria, juegas como Marty o Rita, cocinando, construyendo y sirviendo las hamburguesas más locas de la ciudad.</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                              <td width="10%"></td>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Sushiria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Sushiria</b><br>Tu día empeora cuando rompes la estatua del gato afortunado de Papa Louie. Todo lo que sabemos es que Papa Louie se fue en una misión descabellada y ahora estás atrapado dirigiendo el restaurante. ¿Podrás cambiar tu suerte y dominar el fino arte de hacer sushi?</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Cheeseria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Cheeseria</b><br>¡Elabora colosales sándwiches de queso a la parrilla y apila las papas fritas en Papa's Cheeseria!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Pastaria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Pastaria</b><br>¡Es una boda de destino en la ciudad costera de Portallini, hogar de Papa's Pastaria! ¡Estás a cargo del restaurante más nuevo de papá, donde tomarás pedidos, cocinarás fideos y agregarás salsas y aderezos para crear un plato de pasta perfecto!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Hot_Doggeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Hot Doggeria</b><br>Es el día de la inauguración en el Griller Stadium, ¡pero los abonos de temporada están todos agotados! Parece que la única forma de ver los partidos es trabajar para tu viejo amigo Papa Louie.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Pancakeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Pancakeria</b><br>Sin Papa Louie a la vista, estás atrapado dirigiendo su restaurante más nuevo. Prepárate para voltear y apilar grandes cantidades de panqueques, waffles y tostadas francesas.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Taco_Mia_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Taco Mia!</b><br>Después de ganar un concurso de comer tacos, ¡recibes las llaves de Papa's Taco Mia! Desbloquea todo tipo de ingredientes y mejora tu tienda. ¡Intenta complacer a esos quisquillosos Closers con tus salvajes habilidades para hacer tacos!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Pizzeria_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa's Pizzeria</b><br>Cuando Papa Louie se escapa en otra aventura, Delivery Boy Roy queda a cargo de Papa's Pizzeria. Los clientes están acostumbrados al estilo de pizzas totalmente personalizadas de Papa Louie. ¡Domina las 4 estaciones y asciende de rango para ser el mejor chef de pizza!</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                         
+                                        <h2>Juegos de Plataformas</h2>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                          <tbody>
+                                            <tr>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Jacksmith_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Jacksmith</b><br>Jacksmith es el burro más astuto de todo el país. Eres un herrero que fabrica una amplia gama de armas para todos tus guerreros. Elige tu mineral, elige tu molde, derrítelo, viértelo, constrúyelo y diseñalo. ¡Sigue avanzando hacia el Gran Mago Dudley!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Papa_Louie_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa Louie</b><br>¡La aventura que lo inició todo! Mientras Papa Louie organizaba una fiesta, el infame Anillo de Cebolla se infiltró en todos los pedidos. Las pizzas se transformaron en monstruos que secuestraron a todos los clientes. Armado con su paleta para pizza y bombas de pimienta, Papa Louie debe rescatar a todos.</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                              <td width="10%"></td>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Papa_Louie_2_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa Louie 2</b><br>¡La tan esperada secuela de Papa Louie: When Pizzas Attack! Radley Madish, Sarge y una legión de Burgerzillas secuestran a Papa Louie y a todos los clientes leales. Depende de Marty y Rita rescatarlos.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Papa_Louie_3_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Papa Louie 3</b><br>La tercera entrega de esta popular serie de plataformas. Esta vez explorarás el lado más dulce de la Tierra de Munchmore. ¡Depende del Capitán Cori rescatar a Papa Louie del ejército de viscosos Sundaesaurus!</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                         
+                                        <h2>Otros Juegos de Flipline</h2>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                          <tbody>
+                                            <tr>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/McCoy_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Cactus McCoy</b><br>Todo comenzó cuando Hex Hatfield contrató a McCoy para encontrar la Esmeralda Espinosa. Sin darse cuenta de la maldición, McCoy se transformó en un cactus que caminaba, hablaba y luchaba. Este juego de lucha de plataformas te hará empuñar toneladas de armas en un extraño mundo del Salvaje Oeste.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Steak_and_Jake_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Steak and Jake</b><br>Steak y Jake tienen un trabajo: entregar la leche más fresca de este lado de Mooner Ranch. Jake el pájaro tiene un truco extra: cambiar de color, permitiéndole interactuar con objetos y enemigos de colores similares.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Rock_Garden_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Rock Garden</b><br>Juega más de 100 niveles en este rompecabezas a juego de piedras, cada uno con su propio diseño, entorno y piedra coleccionable únicos. Hay dos modos disponibles: clásico y aleatorio.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Meteor_Blastor_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Meteor Blastor</b><br>Tienes un trabajo, pero es importante... Esos meteoritos amenazan sistemas solares, eventos deportivos y naves espaciales. ¡Tienes que destruirlos y mostrarle a la galaxia por qué obtuviste el nombre de METEOR BLASTOR!</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                              <td width="10%"></td>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/McCoy_2_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Cactus McCoy 2</b><br>¡La secuela de Cactus McCoy que estabas esperando! Un encuentro con Ella Windstorm te envía a un viaje épico de búsqueda de tesoros. ¿Podrás sobrevivir a nuevos enemigos y jefes en tu camino hacia las míticas Ruinas de Calavera?</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Midnight_March_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Midnight March</b><br>¡Ayuda a Steak y Jake a guiar a los Ghouls que marchan por el sendero este Halloween! Multitarea en este juego de plataformas y rompecabezas, con Jake haciendo coincidir los colores mientras despeja el camino para Steak y los Ghouls.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Guppy_Guard_Express_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Guppy Guard Express</b><br>Guía al indefenso guppy a través de traicioneras cuevas submarinas, evitando rocas y escombros que caen.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/Sarge_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Unfinished Sarge Game Demo</b><br>¡Para celebrar OnionFest, ahora puedes jugar la demostración del prototipo inacabado del juego de Sarge! Si bien esta demostración es solo una colección de habitaciones, puedes tener una idea de cómo habría funcionado el juego.</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                         
+                                        <h2>Customerpalooza</h2>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                          <tbody>
+                                            <tr>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2020_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2020</b><br>¡Customerpalooza de Kingsley regresa para 2020! Crea hasta tres entradas en la búsqueda de los mejores clientes creados por fans. ¡También puedes importar a tus amigos desde la aplicación Papa Louie Pals!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2018_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2018</b><br>¡Vuelve Customerpalooza de Kingsley! Crea hasta tres entradas en la búsqueda de los mejores clientes creados por fans. ¡Vuelve a votar por tus favoritas para decidir quién llega a la final!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2016_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2016</b><br>Kingsley's Customerpalooza está de vuelta, ¡donde TÚ decides quién se convertirá en el próximo cliente en los restaurantes de papá! Crea hasta tres entradas y vota tus favoritas.</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2014_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2014</b><br>¡Customerpalooza de Kingsley regresa para una búsqueda mundial del mejor cliente creado por fans que nuestros ojos hayan visto jamás!</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                              <td width="10%"></td>
+                                              <td width="45%" valign="top">
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2019_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2019</b><br>¡Customerpalooza de Kingsley regresa para 2019! Crea hasta tres entradas en la búsqueda de los mejores clientes creados por fans. ¡También puedes importar a tus amigos desde la aplicación Papa Louie Pals!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2017_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2017</b><br>Kingsley's Customerpalooza está de vuelta, ahora con millones de combinaciones de colores disponibles para tus creaciones. ¡Vuelve a votar por tus favoritas para decidir quién llega a la final!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2015_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2015</b><br>¡Customerpalooza de Kingsley ha vuelto a lo grande! ¡Crea hasta tres entradas y vota las de otros para decidir quién llega a la final!</div>
+                                                </div><br>
+                                         
+                                                <div class="game-entry">
+                                                  <img src="Games/CustomerPalooza2013_gameicon.jpg" width="130" height="130">
+                                                  <div class="game-text"><b>Kingsley's Customerpalooza 2013</b><br>¡Customerpalooza de Kingsley es una búsqueda épica y mundial del mejor cliente creado por fans que nuestros ojos hayan visto jamás!</div>
+                                                </div><br>
+                                         
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td width="10" height="250" class="box_white"></td>
+                          <td width="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="10" height="10" class="box_white_bl"></td>
+                          <td width="666" height="10" class="box_white"></td>
+                          <td width="10" height="10" class="box_white_br"></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <table>
+    <tbody>
+      <tr>
+        <td width="2500" align="center" valign="top">
+          <div id="gifContainer" style="position: relative; width: 130px; height: 140px;">
+            <img id="gifImageStatic" src="Imagenes\Onion2.png" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" width="130" height="140">
+            <img id="gifImageAnimated" src="Imagenes\Onion.gif" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: none;" width="130" height="140">
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const gifContainer = document.getElementById("gifContainer");
+      const gifImageStatic = document.getElementById("gifImageStatic");
+      const gifImageAnimated = document.getElementById("gifImageAnimated");
+      gifContainer.addEventListener("mouseenter", function () {
+        gifImageStatic.style.display = "none";
+        gifImageAnimated.style.display = "block";
+      });
+      gifContainer.addEventListener("mouseleave", function () {
+        gifImageStatic.style.display = "block";
+        gifImageAnimated.style.display = "none";
+      });
+    });
+  </script>
+  <footer align="center">
+    <p>© 2026 Flipline Fandom, Created by Erick Tut</p>
+  </footer>
+</body>
+</html>
